@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="D:\GYF\GYFProject\SlidingMenuDemo\build\intermediates\exploded-aar\GYFProject\slidingMenuLib\unspecified\assets"/></dataSet><dataSet config="main"><source path="D:\GYF\GYFProject\SlidingMenuDemo\src\main\assets"/><source path="D:\GYF\GYFProject\SlidingMenuDemo\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\GYF\GYFProject\SlidingMenuDemo\src\debug\assets"/></dataSet></merger>

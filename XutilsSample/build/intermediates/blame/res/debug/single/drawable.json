@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_database.xml",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\icon_database.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\bitmap_press.png",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\bitmap_press.png"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\http_press.png",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\http_press.png"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\http.png",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\http.png"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\bitmap.png",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\bitmap.png"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_http.xml",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\icon_http.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_item.xml",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\tab_item.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\database.png",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\database.png"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background.9.png",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\tab_background.9.png"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_item_press.9.png",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\tab_item_press.9.png"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\database_press.png",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\database_press.png"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_btimap.xml",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\icon_btimap.xml"
+    }
+]

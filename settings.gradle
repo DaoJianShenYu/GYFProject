@@ -1,0 +1,2 @@
+include ':loggerLib', ':PinZhi365', ':pullToRefreshLib', ':slidingMenuLib', ':SlidingMenuDemo', ':swiperefreshlayout', ':utilslib', ':network', ':memoryleak',
+        ':ViewPagerIndicatorLib', ':ViewPagerIndicatorSample', ':xutilsLibrary', ':XutilsSample', ':app'

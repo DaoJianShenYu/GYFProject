@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hrw.memoryleak">
+
+    <application
+        android:name=".global.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AnonymousLeakActivity"/>
+        <activity android:name=".activity.HandlerActivity"/>
+        <activity android:name=".activity.HandlerThreadActivity"/>
+        <activity android:name=".activity.UIThreadWaitSonThreadActivity"/>
+        <activity android:name=".activity.StringFormatTextViewActivity"/>
+        <activity android:name=".activity.HtmlTextViewActivity"/>
+        <activity android:name=".activity.FadeInFadeOutActivity"
+            android:theme="@style/Anim_fade1"/>
+        <activity android:name=".activity.FadeInFadeOutActivity2"
+            android:theme="@style/Anim_fade2"/>
+        <activity android:name=".activity.NormalListViewActivity"/>
+        <activity android:name=".activity.FadeInFadeOutActivity3"/>
+        <activity android:name=".activity.FadeInFadeOutActivity4"/>
+        <activity android:name=".activity.NormalViewPagerActivity"/>
+    </application>
+
+</manifest>

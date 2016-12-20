@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_main_anonymous_leak"
+                style="@style/text_style"
+                android:text="匿名内部类会导致内存泄露" />
+
+            <Button
+                android:id="@+id/bt_main_anonymous_leak2"
+                style="@style/text_style"
+                android:text="handler的两种防止泄露的写法" />
+
+            <Button
+                android:id="@+id/bt_main_anonymous_leak3"
+                style="@style/text_style"
+                android:text="利用HandlerThread来获取一条每隔5s查询一次的子线程" />
+
+            <Button
+                android:id="@+id/bt_main_demo4"
+                style="@style/text_style"
+                android:text="让主线程等子线程操作完了再继续的方法" />
+
+            <Button
+                android:id="@+id/bt_main_demo5"
+                style="@style/text_style"
+                android:text="String占位符让TextView显示更灵活" />
+            <Button
+                android:id="@+id/bt_main_demo6"
+                style="@style/text_style"
+                android:text="html标签让TextView显示更生动" />
+            <Button
+                android:id="@+id/bt_main_demo7"
+                style="@style/text_style"
+                android:text="通过Theme设置activity为淡入淡出(进出的两个activity都要加theme,效果不理想,暂时搁置)"/>
+            <Button
+                android:id="@+id/bt_main_demo8"
+                style="@style/text_style"
+                android:text="通过设置overridePendingTransition完成淡入淡出"/>
+            <Button
+                android:id="@+id/bt_main_demo9"
+                style="@style/text_style"
+                android:text="普通listView"/>
+            <Button
+                android:id="@+id/bt_main_demo10"
+                style="@style/text_style"
+                android:text="普通ViewPager"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

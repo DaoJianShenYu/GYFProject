@@ -1,0 +1,50 @@
+<resources>
+    <style name="AppParent" parent="android:Theme.Light.NoTitleBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppParent">
+    </style>
+
+    <style name="text_style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--activity淡入淡出主题-->
+    <!--http://blog.csdn.net/lmj623565791/article/details/22990643-->
+    <!--http://blog.csdn.net/centralperk/article/details/7415565-->
+    <style name="Anim_fade1" parent="AppParent">
+        <!--窗体动画主题-->
+        <item name="android:windowAnimationStyle">@style/fade1</item>
+    </style>
+    <style name="Anim_fade2" parent="AppParent">
+        <!--窗体动画主题-->
+        <item name="android:windowAnimationStyle">@style/fade2</item>
+    </style>
+
+    <style name="fade1">
+        <!--不finish就跳转-->
+        <item name="android:activityOpenExitAnimation">@anim/fade_out</item>
+        <!--返回该activity的进入效果-->
+        <item name="android:activityCloseEnterAnimation">@anim/fade_in</item>
+    </style>
+
+    <style name="fade2">
+        <!--<item name="@android:windowEnterAnimation">@anim/fade_in</item>-->
+        <!--<item name="@android:windowExitAnimation">@anim/fade_out</item>-->
+        <!--activity创建进入效果-->
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <!--finish该activity的效果-->
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+
+
+</resources>

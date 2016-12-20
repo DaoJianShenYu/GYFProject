@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\responsive_content_frame.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\src\\main\\res\\layout\\responsive_content_frame.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\list_grid.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\src\\main\\res\\layout\\list_grid.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\pager.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\src\\main\\res\\layout\\pager.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\src\\main\\res\\layout\\grid_item.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\github_button.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\src\\main\\res\\layout\\github_button.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\exploded-aar\\GYFProject\\slidingMenuLib\\unspecified\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\menu_frame_two.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\src\\main\\res\\layout\\menu_frame_two.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\row.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\src\\main\\res\\layout\\row.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\menu_frame.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\src\\main\\res\\layout\\menu_frame.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\list.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\src\\main\\res\\layout\\list.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\menu.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\src\\main\\res\\layout\\menu.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\properties.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\src\\main\\res\\layout\\properties.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\build\\intermediates\\res\\merged\\debug\\layout\\content_frame.xml",
+        "source": "D:\\GYF\\GYFProject\\SlidingMenuDemo\\src\\main\\res\\layout\\content_frame.xml"
+    }
+]
