@@ -18,6 +18,7 @@ import butterknife.InjectView;
 //Creat by 高烨峰.
 public class MainActivity extends AppCompatActivity {
 
+
     @InjectView(R.id.iv_main_xutils_bitmap)
     ImageView ivMainXutilsBitmap;
     @InjectView(R.id.et_main_animation)
