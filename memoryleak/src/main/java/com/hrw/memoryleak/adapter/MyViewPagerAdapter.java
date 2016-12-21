@@ -19,11 +19,11 @@ public class MyViewPagerAdapter extends PagerAdapter {
     private final ArrayList<View> data = new ArrayList<>();
 
     public MyViewPagerAdapter() {
-        Drawable drawable1 = MyApplication.context.getResources().getDrawable(R.drawable.leak_canary_icon);
-        Drawable drawable2 = MyApplication.context.getResources().getDrawable(R.mipmap.ic_launcher);
-        Drawable drawable3 = MyApplication.context.getResources().getDrawable(R.drawable.leak_canary_icon);
-        Drawable drawable4 = MyApplication.context.getResources().getDrawable(R.mipmap.ic_launcher);
-        Drawable drawable5 = MyApplication.context.getResources().getDrawable(R.drawable.leak_canary_icon);
+        Drawable drawable1 = MyApplication.context.getResources().getDrawable(R.drawable.order);
+        Drawable drawable2 = MyApplication.context.getResources().getDrawable(R.drawable.ic_launcher);
+        Drawable drawable3 = MyApplication.context.getResources().getDrawable(R.drawable.order);
+        Drawable drawable4 = MyApplication.context.getResources().getDrawable(R.drawable.ic_launcher);
+        Drawable drawable5 = MyApplication.context.getResources().getDrawable(R.drawable.order);
         View view1 = View.inflate(MyApplication.context, R.layout.item_normal_viewpager, null);
         ImageView iv_viewpager_item1 = (ImageView) view1.findViewById(R.id.iv_viewpager_item);
         iv_viewpager_item1.setImageDrawable(drawable1);
@@ -31,14 +31,14 @@ public class MyViewPagerAdapter extends PagerAdapter {
         ImageView iv_viewpager_item2 = (ImageView) view2.findViewById(R.id.iv_viewpager_item);
         iv_viewpager_item2.setImageDrawable(drawable2);
         View view3 = View.inflate(MyApplication.context, R.layout.item_normal_viewpager, null);
-        ImageView iv_viewpager_item3 = (ImageView) view2.findViewById(R.id.iv_viewpager_item);
+        ImageView iv_viewpager_item3 = (ImageView) view3.findViewById(R.id.iv_viewpager_item);
         iv_viewpager_item3.setImageDrawable(drawable3);
         View view4 = View.inflate(MyApplication.context, R.layout.item_normal_viewpager, null);
-        ImageView iv_viewpager_item4 = (ImageView) view2.findViewById(R.id.iv_viewpager_item);
+        ImageView iv_viewpager_item4 = (ImageView) view4.findViewById(R.id.iv_viewpager_item);
         iv_viewpager_item4.setImageDrawable(drawable4);
         View view5 = View.inflate(MyApplication.context, R.layout.item_normal_viewpager, null);
-        ImageView iv_viewpager_item5 = (ImageView) view2.findViewById(R.id.iv_viewpager_item);
-        iv_viewpager_item5.setImageDrawable(drawable4);
+        ImageView iv_viewpager_item5 = (ImageView) view5.findViewById(R.id.iv_viewpager_item);
+        iv_viewpager_item5.setImageDrawable(drawable5);
         data.add(view1);
         data.add(view2);
         data.add(view3);

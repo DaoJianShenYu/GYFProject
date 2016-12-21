@@ -65,7 +65,11 @@
             <Button
                 android:id="@+id/bt_main_demo11"
                 style="@style/text_style"
-                android:text="图片显示"/>
+                android:text="图片set的三种方式"/>
+            <Button
+                android:id="@+id/bt_main_demo12"
+                style="@style/text_style"
+                android:text="通用radio+Fragment主界面"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

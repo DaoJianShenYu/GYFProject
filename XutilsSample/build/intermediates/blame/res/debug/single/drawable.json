@@ -40,11 +40,11 @@
         "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\tab_item_press.9.png"
     },
     {
-        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\database_press.png",
-        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\database_press.png"
-    },
-    {
         "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_btimap.xml",
         "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\icon_btimap.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\drawable\\database_press.png",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\drawable\\database_press.png"
     }
 ]

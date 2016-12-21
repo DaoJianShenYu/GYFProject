@@ -24,6 +24,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button bt_main_demo8;
     private Button bt_main_demo9;
     private Button bt_main_demo10;
+    private Button bt_main_demo11;
+    private Button bt_main_demo12;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +67,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         bt_main_demo9.setOnClickListener(this);
         bt_main_demo10 = (Button) findViewById(R.id.bt_main_demo10);
         bt_main_demo10.setOnClickListener(this);
+        bt_main_demo11 = (Button) findViewById(R.id.bt_main_demo11);
+        bt_main_demo11.setOnClickListener(this);
+        bt_main_demo12 = (Button) findViewById(R.id.bt_main_demo12);
+        bt_main_demo12.setOnClickListener(this);
     }
 
     @Override
@@ -92,13 +98,19 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(MyApplication.context, FadeInFadeOutActivity.class));
                 break;
             case R.id.bt_main_demo8:
-                startActivity(new Intent(MyApplication.context,FadeInFadeOutActivity3.class));
+                startActivity(new Intent(MyApplication.context, FadeInFadeOutActivity3.class));
                 break;
             case R.id.bt_main_demo9:
                 startActivity(new Intent(MyApplication.context, NormalListViewActivity.class));
                 break;
             case R.id.bt_main_demo10:
-                startActivity(new Intent(MyApplication.context,NormalViewPagerActivity.class));
+                startActivity(new Intent(MyApplication.context, NormalViewPagerActivity.class));
+                break;
+            case R.id.bt_main_demo11:
+                startActivity(new Intent(MyApplication.context, NormalViewPagerActivity.class));
+                break;
+            case R.id.bt_main_demo12:
+                startActivity(new Intent(MyApplication.context, UniversalRadioFragmentActivity.class));
                 break;
         }
     }

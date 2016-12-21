@@ -48,7 +48,7 @@ public class NetCacheUtils {
 			this.url = url;
 			this.imageView = imageView;
 			imageView.setTag(url);//给当前ImageView打标签
-			imageView.setImageResource(R.mipmap.ic_launcher);//设置默认背景
+			imageView.setImageResource(R.drawable.ic_launcher);//设置默认背景
 
 		}
 

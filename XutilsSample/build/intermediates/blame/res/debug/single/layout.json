@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\layout\\main.xml"
-    },
-    {
         "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\layout\\bitmap_fragment.xml",
         "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\layout\\bitmap_fragment.xml"
+    },
+    {
+        "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\GYF\\GYFProject\\XutilsSample\\res\\layout\\main.xml"
     },
     {
         "merged": "D:\\GYF\\GYFProject\\XutilsSample\\build\\intermediates\\res\\merged\\debug\\layout\\download_item.xml",
