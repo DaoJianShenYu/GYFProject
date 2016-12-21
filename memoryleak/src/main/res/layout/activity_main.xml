@@ -62,6 +62,10 @@
                 android:id="@+id/bt_main_demo10"
                 style="@style/text_style"
                 android:text="普通ViewPager"/>
+            <Button
+                android:id="@+id/bt_main_demo11"
+                style="@style/text_style"
+                android:text="图片显示"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
