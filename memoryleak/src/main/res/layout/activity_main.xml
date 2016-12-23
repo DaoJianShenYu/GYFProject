@@ -82,6 +82,10 @@
                 android:id="@+id/bt_main_demo13"
                 style="@style/text_style"
                 android:text="三条目复杂列表RecycleView实现" />
+            <Button
+                android:id="@+id/bt_main_demo14"
+                style="@style/text_style"
+                android:text="分类界面" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

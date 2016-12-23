@@ -27,6 +27,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button bt_main_demo11;
     private Button bt_main_demo12;
     private Button bt_main_demo13;
+    private Button bt_main_demo14;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,6 +75,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         bt_main_demo12.setOnClickListener(this);
         bt_main_demo13 = (Button) findViewById(R.id.bt_main_demo13);
         bt_main_demo13.setOnClickListener(this);
+        bt_main_demo14 = (Button) findViewById(R.id.bt_main_demo14);
+        bt_main_demo14.setOnClickListener(this);
     }
 
     @Override
@@ -116,7 +119,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(MyApplication.context, UniversalBottomSelectorFragmentActivity.class));
                 break;
             case R.id.bt_main_demo13:
-                startActivity(new Intent(MyApplication.context,ComplexItemListActivity.class));
+                startActivity(new Intent(MyApplication.context, ComplexItemListActivity.class));
+                break;
+            case R.id.bt_main_demo14:
+                startActivity(new Intent(MyApplication.context,ClassifyActivity.class));
                 break;
         }
     }

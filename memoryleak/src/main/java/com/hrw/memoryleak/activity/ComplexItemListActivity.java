@@ -21,7 +21,7 @@ public class ComplexItemListActivity extends Activity {
         for (int i = 0; i < 20; i++) {
 
         }
-        //rv_complex_list.setAdapter(new MyRecyclerAdapter());
+       //rv_complex_list.setAdapter(new MyRecyclerAdapter());
     }
 
     private void initView() {

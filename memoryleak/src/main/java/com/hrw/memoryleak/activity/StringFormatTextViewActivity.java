@@ -22,7 +22,7 @@ public class StringFormatTextViewActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_textview);
         initView();
-        String result = "实时更新中,当前大盘指数:<font color='red'>%d</font> %s\n浮点类型:%f" +
+        String result = "实时更新中,当前大盘指数:%d %s\n浮点类型:%f" +
                 "\n数字缺位数前面补0: %04d";
         result = String.format(result, num,str,d,num2);
         tv_show.setText(result);
