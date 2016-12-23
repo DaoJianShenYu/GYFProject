@@ -42,34 +42,46 @@
                 android:id="@+id/bt_main_demo5"
                 style="@style/text_style"
                 android:text="String占位符让TextView显示更灵活" />
+
             <Button
                 android:id="@+id/bt_main_demo6"
                 style="@style/text_style"
                 android:text="html标签让TextView显示更生动" />
+
             <Button
                 android:id="@+id/bt_main_demo7"
                 style="@style/text_style"
-                android:text="通过Theme设置activity为淡入淡出(进出的两个activity都要加theme,效果不理想,暂时搁置)"/>
+                android:text="通过Theme设置activity为淡入淡出(进出的两个activity都要加theme,效果不理想,暂时搁置)" />
+
             <Button
                 android:id="@+id/bt_main_demo8"
                 style="@style/text_style"
-                android:text="通过设置overridePendingTransition完成淡入淡出"/>
+                android:text="通过设置overridePendingTransition完成淡入淡出" />
+
             <Button
                 android:id="@+id/bt_main_demo9"
                 style="@style/text_style"
-                android:text="普通listView"/>
+                android:text="普通listView" />
+
             <Button
                 android:id="@+id/bt_main_demo10"
                 style="@style/text_style"
-                android:text="普通ViewPager"/>
+                android:text="普通ViewPager" />
+
             <Button
                 android:id="@+id/bt_main_demo11"
                 style="@style/text_style"
-                android:text="图片set的三种方式"/>
+                android:text="图片set的三种方式" />
+
             <Button
                 android:id="@+id/bt_main_demo12"
                 style="@style/text_style"
-                android:text="通用radio+Fragment主界面"/>
+                android:text="通用Fragment+LinearLayout主界面" />
+
+            <Button
+                android:id="@+id/bt_main_demo13"
+                style="@style/text_style"
+                android:text="三条目复杂列表RecycleView实现" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -30,7 +30,8 @@
         <activity android:name=".activity.FadeInFadeOutActivity3"/>
         <activity android:name=".activity.FadeInFadeOutActivity4"/>
         <activity android:name=".activity.NormalViewPagerActivity"/>
-        <activity android:name=".activity.UniversalRadioFragmentActivity"/>
+        <activity android:name=".activity.UniversalBottomSelectorFragmentActivity"/>
+        <activity android:name=".activity.ComplexItemListActivity"/>
     </application>
 
 </manifest>

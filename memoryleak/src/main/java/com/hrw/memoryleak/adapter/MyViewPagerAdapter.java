@@ -44,11 +44,6 @@ public class MyViewPagerAdapter extends PagerAdapter {
         data.add(view3);
         data.add(view4);
         data.add(view5);
-//        data.add(View.inflate(MyApplication.context,R.layout.item_normal_viewpager,null));
-//        data.add(View.inflate(MyApplication.context,R.layout.item_normal_viewpager,null));
-//        data.add(View.inflate(MyApplication.context,R.layout.item_normal_viewpager,null));
-//        data.add(View.inflate(MyApplication.context,R.layout.item_normal_viewpager,null));
-//        data.add(View.inflate(MyApplication.context,R.layout.item_normal_viewpager,null));
     }
 
     @Override

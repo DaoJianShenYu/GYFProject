@@ -9,22 +9,27 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import com.hrw.memoryleak.R;
+import com.hrw.memoryleak.fragment.MyFragment0;
+import com.hrw.memoryleak.fragment.MyFragment1;
+import com.hrw.memoryleak.fragment.MyFragment2;
+import com.hrw.memoryleak.fragment.MyFragment3;
 import com.hrw.memoryleak.global.MyApplication;
+import com.hrw.memoryleak.utils.ToastUtils;
 
 import java.util.ArrayList;
 
 /**
  * Created by 高烨峰 on 2016/12/21.
  */
-public class UniversalRadioFragmentActivity extends FragmentActivity implements View.OnClickListener {
+public class UniversalBottomSelectorFragmentActivity extends FragmentActivity implements View.OnClickListener {
     private FrameLayout fl_fragment_container;
     private LinearLayout ll_bottom_switcher_container;
     private int bottomSwitcherChildCount;
     private ArrayList<Fragment> fragments = new ArrayList<>();
-    private FragmentManager fragmentManager;
+
+    private FragmentManager supportFragmentManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,22 +42,18 @@ public class UniversalRadioFragmentActivity extends FragmentActivity implements 
             View childAt = ll_bottom_switcher_container.getChildAt(i);
             childAt.setOnClickListener(this);
         }
-
+        supportFragmentManager = getSupportFragmentManager();
+        fragments.add(new MyFragment0());
         fragments.add(new MyFragment1());
         fragments.add(new MyFragment2());
         fragments.add(new MyFragment3());
-        fragments.add(new MyFragment4());
-        fragmentManager = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        int i = 1;
+        FragmentTransaction fragmentTransaction = supportFragmentManager.beginTransaction();
         for (Fragment fragment : fragments) {
-            fragmentTransaction.add(R.id.fl_fragment_container, fragment, "fragment" + i);
-            if (i > 1) {
-                fragmentTransaction.hide(fragment);
-            }
-            i++;
+            fragmentTransaction.add(R.id.fl_fragment_container,fragment);
         }
         fragmentTransaction.commit();
+        swichFragment(0);
+        updateBottomSwitcherUI(0);
     }
 
     private void initView() {
@@ -65,7 +66,7 @@ public class UniversalRadioFragmentActivity extends FragmentActivity implements 
         int index = ll_bottom_switcher_container.indexOfChild(v);
         updateBottomSwitcherUI(index);
         swichFragment(index);
-        Toast.makeText(MyApplication.context, "" + index, Toast.LENGTH_SHORT).show();
+        ToastUtils.showSingleToast(MyApplication.context, "" + index);
     }
 
     private void updateBottomSwitcherUI(int index) {
@@ -88,10 +89,10 @@ public class UniversalRadioFragmentActivity extends FragmentActivity implements 
     }
 
     private void swichFragment(int index) {
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        FragmentTransaction fragmentTransaction = supportFragmentManager.beginTransaction();
         int size = fragments.size();
         for (int i = 0; i < size; i++) {
-            Fragment fragment = fragments.get(index);
+            Fragment fragment = fragments.get(i);
             if (i == index) {
                 fragmentTransaction.show(fragment);
             } else {

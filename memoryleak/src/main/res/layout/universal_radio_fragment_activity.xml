@@ -32,6 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_gravity="bottom|center"
+                android:textColor="@color/black_blue_enable"
                 android:text="首页" />
         </FrameLayout>
 
@@ -49,7 +50,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_gravity="bottom|center"
-                android:text="订单" />
+                android:text="订单"
+                android:textColor="@color/black_blue_enable"/>
         </FrameLayout>
 
         <FrameLayout
@@ -66,7 +68,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_gravity="bottom|center"
-                android:text="个人" />
+                android:text="个人"
+                android:textColor="@color/black_blue_enable"/>
         </FrameLayout>
 
         <FrameLayout
@@ -83,7 +86,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_gravity="bottom|center"
-                android:text="更多" />
+                android:text="更多"
+                android:textColor="@color/black_blue_enable"/>
         </FrameLayout>
     </LinearLayout>
 </LinearLayout>

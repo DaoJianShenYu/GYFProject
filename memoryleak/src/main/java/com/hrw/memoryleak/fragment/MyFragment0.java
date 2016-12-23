@@ -1,4 +1,4 @@
-package com.hrw.memoryleak.activity;
+package com.hrw.memoryleak.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -12,11 +12,11 @@ import com.hrw.memoryleak.R;
 /**
  * Created by 高烨峰 on 2016/12/21.
  */
-public class MyFragment1 extends Fragment {
+public class MyFragment0 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.my_fragment1, null);
+        View view = inflater.inflate(R.layout.my_fragment0, null);
         return view;
     }
 }
