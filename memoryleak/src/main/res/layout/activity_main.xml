@@ -67,6 +67,10 @@
                 android:id="@+id/bt_main_demo10"
                 style="@style/text_style"
                 android:text="普通ViewPager" />
+            <Button
+                android:id="@+id/bt_main_demo10_1"
+                style="@style/text_style"
+                android:text="ViewPagerTabLayout" />
 
             <Button
                 android:id="@+id/bt_main_demo11"
@@ -86,6 +90,26 @@
                 android:id="@+id/bt_main_demo14"
                 style="@style/text_style"
                 android:text="分类界面" />
+            <Button
+                android:id="@+id/bt_main_demo15"
+                style="@style/text_style"
+                android:text="stickyListHeader效果" />
+            <Button
+                android:id="@+id/bt_main_demo16"
+                style="@style/text_style"
+                android:text="仿淘宝搜索页" />
+            <Button
+                android:id="@+id/bt_main_demo17"
+                style="@style/text_style"
+                android:text="MVP架构Demo" />
+            <Button
+                android:id="@+id/bt_main_demo18"
+                style="@style/text_style"
+                android:text="okHttp请求Demo" />
+            <Button
+                android:id="@+id/bt_main_demo19"
+                style="@style/text_style"
+                android:text="Volley请求Demo" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

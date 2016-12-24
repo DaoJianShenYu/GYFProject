@@ -1,2 +1,2 @@
-include ':loggerLib', ':PinZhi365', ':pullToRefreshLib', ':slidingMenuLib', ':SlidingMenuDemo', ':swiperefreshlayout', ':utilslib', ':network', ':memoryleak', ':dagger2',
-        ':ViewPagerIndicatorLib', ':ViewPagerIndicatorSample', ':xutilsLibrary', ':XutilsSample', ':app'
+include ':loggerLib', ':PinZhi365', ':pullToRefreshLib', ':slidingMenuLib', ':SlidingMenuDemo', ':swiperefreshlayout', ':utilslib', ':network', ':memoryleak', ':dagger2', ':mvpdemo',
+        ':ViewPagerIndicatorLib', ':ViewPagerIndicatorSample', ':xutilsLibrary', ':XutilsSample', ':app', ':sticky_list_header_lib', ':sticky_list_header_sample'

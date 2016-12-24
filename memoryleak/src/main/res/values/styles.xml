@@ -43,5 +43,5 @@
         <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
     </style>
 
-
+<style name="TabLayout" parent="Theme.AppCompat.Light.DarkActionBar"/>
 </resources>

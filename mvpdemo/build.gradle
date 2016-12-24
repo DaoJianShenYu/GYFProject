@@ -1,11 +1,10 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.3"
 
     defaultConfig {
-        applicationId "com.hrw.memoryleak"
         minSdkVersion 14
         targetSdkVersion 24
         versionCode 1
@@ -23,9 +22,5 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.1'
-    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
-    compile 'com.android.support:recyclerview-v7:24.2.1'
-    compile 'com.android.support:design:24.2.1'
-    compile project(':sticky_list_header_lib')
-    compile project(':mvpdemo')
+    compile project(':dagger2')
 }

@@ -32,6 +32,8 @@
         <activity android:name=".activity.NormalViewPagerActivity"/>
         <activity android:name=".activity.UniversalBottomSelectorFragmentActivity"/>
         <activity android:name=".activity.ComplexItemListActivity"/>
+        <activity android:name=".activity.StickyListHeaderActivity"/>
+        <activity android:name=".activity.TablayoutViewPagerActivity"/>
     </application>
 
 </manifest>

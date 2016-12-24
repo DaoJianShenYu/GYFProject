@@ -10,6 +10,7 @@ import android.widget.Button;
 
 import com.hrw.memoryleak.R;
 import com.hrw.memoryleak.global.MyApplication;
+import com.hrw.mvpdemo.ui.activity.MVPActivity;
 
 public class MainActivity extends Activity implements View.OnClickListener {
     //Handler作为匿名内部类,其生命周期可能比外部类长,所以应该设成非匿名的静态内部类
@@ -28,6 +29,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button bt_main_demo12;
     private Button bt_main_demo13;
     private Button bt_main_demo14;
+    private Button bt_main_demo10_1;
+    private Button bt_main_demo15;
+    private Button bt_main_demo16;
+    private Button bt_main_demo17;
+    private Button bt_main_demo18;
+    private Button bt_main_demo19;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,6 +84,18 @@ public class MainActivity extends Activity implements View.OnClickListener {
         bt_main_demo13.setOnClickListener(this);
         bt_main_demo14 = (Button) findViewById(R.id.bt_main_demo14);
         bt_main_demo14.setOnClickListener(this);
+        bt_main_demo10_1 = (Button) findViewById(R.id.bt_main_demo10_1);
+        bt_main_demo10_1.setOnClickListener(this);
+        bt_main_demo15 = (Button) findViewById(R.id.bt_main_demo15);
+        bt_main_demo15.setOnClickListener(this);
+        bt_main_demo16 = (Button) findViewById(R.id.bt_main_demo16);
+        bt_main_demo16.setOnClickListener(this);
+        bt_main_demo17 = (Button) findViewById(R.id.bt_main_demo17);
+        bt_main_demo17.setOnClickListener(this);
+        bt_main_demo18 = (Button) findViewById(R.id.bt_main_demo18);
+        bt_main_demo18.setOnClickListener(this);
+        bt_main_demo19 = (Button) findViewById(R.id.bt_main_demo19);
+        bt_main_demo19.setOnClickListener(this);
     }
 
     @Override
@@ -122,7 +141,23 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(MyApplication.context, ComplexItemListActivity.class));
                 break;
             case R.id.bt_main_demo14:
-                startActivity(new Intent(MyApplication.context,ClassifyActivity.class));
+                startActivity(new Intent(MyApplication.context, ClassifyActivity.class));
+                break;
+            case R.id.bt_main_demo10_1:
+                startActivity(new Intent(MyApplication.context, TablayoutViewPagerActivity.class));
+                break;
+            case R.id.bt_main_demo15:
+                startActivity(new Intent(MyApplication.context, StickyListHeaderActivity.class));
+                break;
+            case R.id.bt_main_demo16:
+                startActivity(new Intent(MyApplication.context, CopyTaoBaoSearchActivity.class));
+                break;
+            case R.id.bt_main_demo17:
+                startActivity(new Intent(MyApplication.context,MVPActivity.class));
+                break;
+            case R.id.bt_main_demo18:
+                break;
+            case R.id.bt_main_demo19:
                 break;
         }
     }
