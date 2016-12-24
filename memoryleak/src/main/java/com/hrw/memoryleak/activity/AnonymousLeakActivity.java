@@ -24,5 +24,16 @@ public class AnonymousLeakActivity extends Activity {
                 Looper.loop();
             }
         }.start();
+        //做成非匿名的静态内部类这样就不会内存泄露了
+        new MyThread().start();
     }
+    static class MyThread extends Thread {
+        @Override
+        public void run() {
+            Looper.prepare();
+            new Handler();
+            Looper.loop();
+        }
+    }
+
 }

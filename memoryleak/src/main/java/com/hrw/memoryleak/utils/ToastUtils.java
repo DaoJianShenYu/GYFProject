@@ -4,18 +4,20 @@ import android.content.Context;
 import android.os.Handler;
 import android.widget.Toast;
 
+import com.hrw.memoryleak.global.MyApplication;
+
 public class ToastUtils {
 
 	
 	private static Toast toast;
 
-	private static Handler handler=new Handler();
+	private static Handler handler = MyApplication.handler;
 
 	/**
 	 * 在主线程中运行
 	 * @param runnable 要运行的代码
 	 */
-	public static void runInUIThread(Runnable runnable) {
+	private static void runInUIThread(Runnable runnable) {
 		handler.post(runnable);
 	}
 
@@ -25,6 +27,7 @@ public class ToastUtils {
 	 * @param msg 土司内容
      */
 	public static void showToast(final Context context, final String msg){
+
 		runInUIThread(new Runnable() {
 		    @Override
 		    public void run() {

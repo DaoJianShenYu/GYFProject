@@ -110,6 +110,10 @@
                 android:id="@+id/bt_main_demo19"
                 style="@style/text_style"
                 android:text="Volley请求Demo" />
+            <Button
+                android:id="@+id/bt_main_demo20"
+                style="@style/text_style"
+                android:text="HttpURLConnection请求Demo" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

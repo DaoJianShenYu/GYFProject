@@ -3,8 +3,6 @@ package com.hrw.memoryleak.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.view.View;
 import android.widget.Button;
 
@@ -35,14 +33,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button bt_main_demo17;
     private Button bt_main_demo18;
     private Button bt_main_demo19;
+    private Button bt_main_demo20;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
-        //做成非匿名的静态内部类这样就不会内存泄露了
-        new MyThread().start();
     }
 
     @Override
@@ -96,6 +93,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         bt_main_demo18.setOnClickListener(this);
         bt_main_demo19 = (Button) findViewById(R.id.bt_main_demo19);
         bt_main_demo19.setOnClickListener(this);
+        bt_main_demo20 = (Button) findViewById(R.id.bt_main_demo20);
+        bt_main_demo20.setOnClickListener(this);
     }
 
     @Override
@@ -153,22 +152,20 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(MyApplication.context, CopyTaoBaoSearchActivity.class));
                 break;
             case R.id.bt_main_demo17:
-                startActivity(new Intent(MyApplication.context,MVPActivity.class));
+                startActivity(new Intent(MyApplication.context, MVPActivity.class));
                 break;
             case R.id.bt_main_demo18:
+                startActivity(new Intent(MyApplication.context, OKHttpActivity.class));
                 break;
             case R.id.bt_main_demo19:
+                startActivity(new Intent(MyApplication.context,VolleyActivity.class));
+                break;
+            case R.id.bt_main_demo20:
+                startActivity(new Intent(MyApplication.context,HttpURLConnectionActivity.class));
                 break;
         }
     }
 
 
-    static class MyThread extends Thread {
-        @Override
-        public void run() {
-            Looper.prepare();
-            new Handler();
-            Looper.loop();
-        }
-    }
+
 }
