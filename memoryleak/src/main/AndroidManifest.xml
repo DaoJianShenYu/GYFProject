@@ -37,7 +37,15 @@
         <activity android:name=".activity.StickyListHeaderActivity"/>
         <activity android:name=".activity.TablayoutViewPagerActivity"/>
         <activity android:name=".activity.OKHttpActivity"/>
+        <activity android:name=".activity.VolleyActivity"/>
         <activity android:name=".activity.HttpURLConnectionActivity"/>
+        <activity android:name=".activity.RetrofitActivity"/>
+        <activity android:name=".activity.MessyCodeActivity"/>
+        <activity android:name=".activity.HttpClientActivity"/>
+        <activity android:name=".activity.CustomDialogActivity"/>
+        <activity android:name=".activity.SpannableStringActivity"/>
+        <activity android:name=".activity.RecycleViewThreeShowActivity"/>
+        <activity android:name=".activity.FileSaveActivity"/>
     </application>
 
 </manifest>

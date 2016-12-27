@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.hrw.memoryleak.R;
+import com.hrw.memoryleak.global.MyApplication;
+import com.hrw.memoryleak.utils.ToastUtils;
 import com.squareup.okhttp.Call;
 import com.squareup.okhttp.Callback;
 import com.squareup.okhttp.OkHttpClient;
@@ -47,12 +49,14 @@ public class OKHttpActivity extends Activity implements View.OnClickListener {
                 call.enqueue(new Callback() {
                     @Override
                     public void onFailure(Request request, IOException e) {
+                        ToastUtils.showToast(MyApplication.context,"请求失败");
 
                     }
                     //okhttp回调在子线程
                     @Override
                     public void onResponse(Response response) throws IOException {
                         final String str = response.body().string();
+                        ToastUtils.showToast(MyApplication.context,"请求成功");
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {

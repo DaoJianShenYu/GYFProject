@@ -87,6 +87,10 @@
                 style="@style/text_style"
                 android:text="三条目复杂列表RecycleView实现" />
             <Button
+                android:id="@+id/bt_main_demo13_1"
+                style="@style/text_style"
+                android:text="RecycleView三种显示效果切换" />
+            <Button
                 android:id="@+id/bt_main_demo14"
                 style="@style/text_style"
                 android:text="分类界面" />
@@ -114,6 +118,42 @@
                 android:id="@+id/bt_main_demo20"
                 style="@style/text_style"
                 android:text="HttpURLConnection请求Demo" />
+            <Button
+                android:id="@+id/bt_main_demo21"
+                style="@style/text_style"
+                android:text="Retrofit请求Demo" />
+            <Button
+                android:id="@+id/bt_main_demo21_1"
+                style="@style/text_style"
+                android:text="HttpClient请求Demo" />
+            <Button
+                android:id="@+id/bt_main_demo22"
+                style="@style/text_style"
+                android:text="乱码的处理" />
+            <Button
+                android:id="@+id/bt_main_demo23"
+                style="@style/text_style"
+                android:text="自定义主题dialog" />
+            <Button
+                android:id="@+id/bt_main_demo24"
+                style="@style/text_style"
+                android:text="获取sim卡唯一串号" />
+            <Button
+                android:id="@+id/bt_main_demo25"
+                style="@style/text_style"
+                android:text="动画" />
+            <Button
+                android:id="@+id/bt_main_demo26"
+                style="@style/text_style"
+                android:text="spannableString复合文本" />
+            <Button
+                android:id="@+id/bt_main_demo27"
+                style="@style/text_style"
+                android:text="BottomSheet底部弹表" />
+            <Button
+                android:id="@+id/bt_main_demo28"
+                style="@style/text_style"
+                android:text="以文件方式存储" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

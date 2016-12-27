@@ -34,6 +34,16 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button bt_main_demo18;
     private Button bt_main_demo19;
     private Button bt_main_demo20;
+    private Button bt_main_demo21;
+    private Button bt_main_demo22;
+    private Button bt_main_demo21_1;
+    private Button bt_main_demo23;
+    private Button bt_main_demo24;
+    private Button bt_main_demo25;
+    private Button bt_main_demo26;
+    private Button bt_main_demo13_1;
+    private Button bt_main_demo27;
+    private Button bt_main_demo28;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,6 +105,26 @@ public class MainActivity extends Activity implements View.OnClickListener {
         bt_main_demo19.setOnClickListener(this);
         bt_main_demo20 = (Button) findViewById(R.id.bt_main_demo20);
         bt_main_demo20.setOnClickListener(this);
+        bt_main_demo21 = (Button) findViewById(R.id.bt_main_demo21);
+        bt_main_demo21.setOnClickListener(this);
+        bt_main_demo22 = (Button) findViewById(R.id.bt_main_demo22);
+        bt_main_demo22.setOnClickListener(this);
+        bt_main_demo21_1 = (Button) findViewById(R.id.bt_main_demo21_1);
+        bt_main_demo21_1.setOnClickListener(this);
+        bt_main_demo23 = (Button) findViewById(R.id.bt_main_demo23);
+        bt_main_demo23.setOnClickListener(this);
+        bt_main_demo24 = (Button) findViewById(R.id.bt_main_demo24);
+        bt_main_demo24.setOnClickListener(this);
+        bt_main_demo25 = (Button) findViewById(R.id.bt_main_demo25);
+        bt_main_demo25.setOnClickListener(this);
+        bt_main_demo26 = (Button) findViewById(R.id.bt_main_demo26);
+        bt_main_demo26.setOnClickListener(this);
+        bt_main_demo13_1 = (Button) findViewById(R.id.bt_main_demo13_1);
+        bt_main_demo13_1.setOnClickListener(this);
+        bt_main_demo27 = (Button) findViewById(R.id.bt_main_demo27);
+        bt_main_demo27.setOnClickListener(this);
+        bt_main_demo28 = (Button) findViewById(R.id.bt_main_demo28);
+        bt_main_demo28.setOnClickListener(this);
     }
 
     @Override
@@ -158,14 +188,39 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(MyApplication.context, OKHttpActivity.class));
                 break;
             case R.id.bt_main_demo19:
-                startActivity(new Intent(MyApplication.context,VolleyActivity.class));
+                startActivity(new Intent(MyApplication.context, VolleyActivity.class));
                 break;
             case R.id.bt_main_demo20:
-                startActivity(new Intent(MyApplication.context,HttpURLConnectionActivity.class));
+                startActivity(new Intent(MyApplication.context, HttpURLConnectionActivity.class));
+                break;
+            case R.id.bt_main_demo21:
+                startActivity(new Intent(MyApplication.context, RetrofitActivity.class));
+                break;
+            case R.id.bt_main_demo22:
+                startActivity(new Intent(MyApplication.context, MessyCodeActivity.class));
+                break;
+            case R.id.bt_main_demo21_1:
+                startActivity(new Intent(MyApplication.context, HttpClientActivity.class));
+                break;
+            case R.id.bt_main_demo23:
+                startActivity(new Intent(MyApplication.context, CustomDialogActivity.class));
+                break;
+            case R.id.bt_main_demo24:
+                break;
+            case R.id.bt_main_demo25:
+                break;
+            case R.id.bt_main_demo26:
+                startActivity(new Intent(MyApplication.context, SpannableStringActivity.class));
+                break;
+            case R.id.bt_main_demo13_1:
+                startActivity(new Intent(MyApplication.context, RecycleViewThreeShowActivity.class));
+                break;
+            case R.id.bt_main_demo27:
+                startActivity(new Intent(MyApplication.context, BottomSheetActivity.class));
+                break;
+            case R.id.bt_main_demo28:
+                startActivity(new Intent(MyApplication.context, FileSaveActivity.class));
                 break;
         }
     }
-
-
-
 }

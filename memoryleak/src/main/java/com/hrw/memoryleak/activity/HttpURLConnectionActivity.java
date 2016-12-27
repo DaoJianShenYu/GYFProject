@@ -47,7 +47,7 @@ public class HttpURLConnectionActivity extends Activity implements View.OnClickL
                 new Thread() {
                     public void run() {
                         try {
-                            String path = NetConstant.test1;
+                            String path = NetConstant.TEST1;
                             URL url = new URL(path);
                             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                             conn.setRequestMethod("GET");
@@ -78,7 +78,7 @@ public class HttpURLConnectionActivity extends Activity implements View.OnClickL
             case R.id.bt_httpurl_connection_post:
                 new Thread(){
                     public void run() {
-                        String path = NetConstant.test1;
+                        String path = NetConstant.TEST1;
                         try {
                             URL url = new URL(path);
                             HttpURLConnection conn = (HttpURLConnection) url.openConnection();

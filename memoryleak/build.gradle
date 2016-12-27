@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.3"
+    useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
         applicationId "com.hrw.memoryleak"
@@ -23,10 +24,20 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.1'
-    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
-    compile 'com.android.support:recyclerview-v7:24.2.1'
-    compile 'com.android.support:design:24.2.1'
     compile project(':sticky_list_header_lib')
     compile project(':mvpdemo')
+    //leakcanary
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+    //recyclerview
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    //质感设计
+    compile 'com.android.support:design:24.2.1'
+    //okhttp
     compile 'com.squareup.okhttp:okhttp:2.7.5'
+    //volley
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    //retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:converter-scalars:2.0.0'
 }

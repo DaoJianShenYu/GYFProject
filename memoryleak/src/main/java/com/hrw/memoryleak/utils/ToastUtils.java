@@ -2,16 +2,15 @@ package com.hrw.memoryleak.utils;
 
 import android.content.Context;
 import android.os.Handler;
+import android.os.Looper;
 import android.widget.Toast;
-
-import com.hrw.memoryleak.global.MyApplication;
 
 public class ToastUtils {
 
 	
 	private static Toast toast;
 
-	private static Handler handler = MyApplication.handler;
+	private static Handler handler = new Handler(Looper.getMainLooper());
 
 	/**
 	 * 在主线程中运行
